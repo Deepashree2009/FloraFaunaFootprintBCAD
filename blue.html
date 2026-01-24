@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Gate (Left side) - Plant Biodiversity</title>
+    <style>
+        body {
+            background-color: #e6f0ff; /* soft pastel blue */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0 20px;
+            color: #003366; /* deep blue for text */
+            border: solid #6699ff; /* subtle blue border */
+        }
+
+        h1 {
+            text-align: center;
+            color: #003366;
+            font-family: Garamond, serif;
+            margin-top: 40px;
+        }
+
+        .info {
+            background-color: #ffffff;
+            border: 2px solid #221582;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 700px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .info b {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px auto;
+            max-width: 1200px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 12px 15px;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.4;
+        }
+
+        table th {
+            background-color: #221582; 
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #cce0ff;
+        }
+
+        @media screen and (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+
+            table th {
+                display: none;
+            }
+
+            table td {
+                position: relative;
+                padding-left: 50%;
+                border: none;
+                border-bottom: 1px solid #eee;
+            }
+
+            table td::before {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+                color: #555;
+            }
+
+            table td:nth-child(1)::before { content: "Species"; }
+            table td:nth-child(2)::before { content: "Scientific Name"; }
+            table td:nth-child(3)::before { content: "Plant Type"; }
+            table td:nth-child(4)::before { content: "Habitat Type"; }
+            table td:nth-child(5)::before { content: "Commonly Found Areas"; }
+        }
+
+        footer {
+            text-align: center;
+            margin: 40px 0 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Zone 3 - Main gate (Left side)</h1>
+
+   <div class="info">
+<p><strong>Number of Species:</strong>&nbsp;8</p>
+<p><strong>Habitat Type:</strong> Open landscaped roadside area</p>
+<p><strong>Plant Types:</strong> Deciduous trees, palms, grasses, vines</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>SPECIES NAME</th>
+<th>SCIENTIFIC NAME</th>
+<th>PLANT TYPE</th>
+<th>HABITAT TYPE</th>
+<th>COMMONLY FOUND AREAS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Common hackberry</td>
+<td>Celtis occidentalis</td>
+<td>Deciduous tree</td>
+<td>Open woodlands, river valleys, urban streets and landscaped roadside areas</td>
+<td>Native to North America; commonly planted in parks and urban areas</td>
+</tr>
+<tr>
+<td>Eastern cottonwood</td>
+<td>Populus deltoides</td>
+<td>Large deciduous tree</td>
+<td>Moist lowlands, riverbanks, floodplains, open green spaces</td>
+<td>Native to North America; widespread along rivers and wetlands</td>
+</tr>
+<tr>
+<td>Sea hibiscus</td>
+<td>Hibiscus tiliaceus</td>
+<td>Evergreen coastal tree</td>
+<td>Coastal zones, sandy soils, open tropical landscapes</td>
+<td>Indo-Pacific regions, South Asia, tropical coastlines</td>
+</tr>
+<tr>
+<td>Poison ivy</td>
+<td>Toxicodendron radicans</td>
+<td>Climbing vine / shrub</td>
+<td>Forest edges, disturbed land, roadsides</td>
+<td>Native to North America; common in temperate regions</td>
+</tr>
+<tr>
+<td>Date palm</td>
+<td>Phoenix dactylifera</td>
+<td>Palm tree</td>
+<td>Arid and semi-arid open landscapes, cultivated plantations</td>
+<td>Middle East, North Africa, arid regions worldwide</td>
+</tr>
+<tr>
+<td>Bermuda grass</td>
+<td>Cynodon dactylon</td>
+<td>Turf grass</td>
+<td>Lawns, sports fields, roadsides, disturbed soils</td>
+<td>Tropical and subtropical regions worldwide</td>
+</tr>
+<tr>
+<td>Siberian elm</td>
+<td>Ulmus pumila</td>
+<td>Deciduous tree</td>
+<td>Dry plains, open woodlands, urban environments</td>
+<td>Central Asia; widely planted globally</td>
+</tr>
+<tr>
+<td>Annual bluegrass</td>
+<td>Poa annua</td>
+<td>Grass</td>
+<td>Lawns, compacted soils, disturbed ground</td>
+<td>Worldwide, especially temperate regions</td>
+</tr>
+</tbody>
+</table>
+<footer>&copy; 2025 Flora &amp; Fauna Footprint.</footer>

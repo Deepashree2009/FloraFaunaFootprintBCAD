@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Playground</title>
+    <style>
+        body {
+            background-color: #fff8f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0 20px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff9115;
+            font-family: Garamond, serif;
+            margin-top: 40px;
+        }
+
+        .info {
+            background-color: #ffffff;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 700px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .info b {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px auto;
+            max-width: 1200px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 12px 15px;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.4;
+        }
+
+        table th {
+            background-color: #ffb347;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #fff3e0;
+        }
+
+        @media screen and (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+
+            table th {
+                display: none;
+            }
+
+            table td {
+                position: relative;
+                padding-left: 50%;
+                border: none;
+                border-bottom: 1px solid #eee;
+            }
+
+            table td::before {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+                color: #555;
+            }
+
+            table td:nth-child(1)::before { content: "Species"; }
+            table td:nth-child(2)::before { content: "Scientific Name"; }
+            table td:nth-child(3)::before { content: "Plant Type"; }
+            table td:nth-child(4)::before { content: "Habitat Type"; }
+            table td:nth-child(5)::before { content: "Commonly Found Areas"; }
+        }
+
+        footer {
+            text-align: center;
+            margin: 40px 0 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Zone 1 - Playground</h1>
+
+   <div class="info">
+<p><strong>Number of Species:</strong>&nbsp;6</p>
+<p><strong>Habitat Type:</strong> Recreational landscaped area</p>
+<p><strong>Plant Types:</strong> Trees, grasses, herbaceous plants</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>SPECIES</th>
+<th>SCIENTIFIC NAME</th>
+<th>PLANT TYPE</th>
+<th>HABITAT TYPE</th>
+<th>COMMONLY FOUND AREAS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yellow salsify</td>
+<td>Tragopogon dubius</td>
+<td>Herbaceous plant</td>
+<td>Roadsides, open grasslands, disturbed soils</td>
+<td>Europe, North America</td>
+</tr>
+<tr>
+<td>Bermuda grass</td>
+<td>Cynodon dactylon</td>
+<td>Turf grass</td>
+<td>Playgrounds, lawns, sports fields</td>
+<td>Tough, low-growing grass common in lawns, sports fields, parks, and roadsides throughout tropical and subtropical regions.</td>
+</tr>
+<tr>
+<td>Woman&rsquo;s tongue</td>
+<td>Albizia lebbeck</td>
+<td>Deciduous tree</td>
+<td>Open plains, roadsides, urban landscapes</td>
+<td>South Asia, tropical regions</td>
+</tr>
+<tr>
+<td>Royal poinciana</td>
+<td>Delonix regia</td>
+<td>Flowering tree</td>
+<td>Open tropical spaces, parks, playgrounds</td>
+<td>Native to Madagascar; planted worldwide</td>
+</tr>
+<tr>
+<td>Tamarind</td>
+<td>Tamarindus indica</td>
+<td>Evergreen tree</td>
+<td>Open woodlands, cultivated gardens</td>
+<td>Africa, South Asia</td>
+</tr>
+<tr>
+<td>Kikuyu grass</td>
+<td>Cenchrus clandestinus</td>
+<td>Grass</td>
+<td>Lawns, sports grounds, slopes</td>
+<td>East Africa; widely introduced</td>
+</tr>
+</tbody>
+</table>
+<footer>&copy; 2025 Flora &amp; Fauna Footprint.</footer>
